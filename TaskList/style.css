@@ -1,0 +1,13 @@
+#task-list{
+    float:left;
+    background:#9CE6A9;
+    padding:2%;
+    border-radius: 25px;
+    font-family: FreeMono, monospace;
+}
+
+#task-title{
+    margin:0%;
+    margin-bottom: 5%;
+}
+
