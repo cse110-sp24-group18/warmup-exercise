@@ -4,26 +4,33 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="style.css">
-<title>Test Task List</title>
+<title>Task List</title>
 </head>
-<body>
-    <section id="task-list">
-    <h2 id="task-title">Task List:</h2>
-    <h3 id="task-title">Urgent Tasks</h3>
-    <div id="urgent">
-
+<body class="body">
+    <div class="center"><!--Centering Div-->
+        <div id="wrapper"><!--Wrapper Div-->
+            <section><!--Heading+Add-->
+                <div class="form-row" id="form-row">
+                    <input type="text" placeholder="TODO" id = 'textInput'>
+                    <input type="text" placeholder="DESC" id = 'descInput'>
+                    <select id = 'selectInput'>
+                        <option value="Personal">Personal</option>
+                        <option value="School">School</option>
+                        <option value="Work">Work</option>
+                        <option value="Misc">Misc</option>
+                    </select>
+                    <input type="date" id = 'dateInput'>
+                    <button type="submit" id="submitButton">Submit</button>
+                </div>
+            </section>
+            <section id="legend"><!--Legend-->
+                <p>insert legend here</p>
+            </section>
+            <section class="grid-container" id="current-tasks"><!--TaskList-->
+                
+            </section>
+        </div>
     </div>
-    <br>
-    <h3 id="task-title">Other Tasks</h3>
-    <div id="not-urgent">
-
-    </div>
-    </section>
-    <section id="filler">
-    <div>
-
-    </div>
-    </section>
-  <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
