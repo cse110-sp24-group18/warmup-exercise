@@ -7,23 +7,54 @@
 <title>Test Task List</title>
 </head>
 <body>
-    <section id="task-list">
-    <h2 id="task-title">Task List:</h2>
-    <h3 id="task-title">Urgent Tasks</h3>
-    <div id="urgent">
+  <h1>Task List</h1>
+  <div id="main-block">
+      <!--Add Task Form-->
+      <div class="add-task-container">
+          <h2>Add Task</h2>
+          <div class="add-todo">
+              <input type="text" placeholder="Add a todo...">
+              <input type="text" placeholder="Description...">
+              <input type="date">
+              <select id="tag">
+                  <option value="" selected disabled>Choose a tag</option>
+                  <option value="tag2">A</option>
+                  <option value="tag3">B</option>
+              </select>
+              <select id="priority">
+                  <option value="" selected disabled>priority</option>
+                  <option value="tag2">1</option>
+                  <option value="tag3">2</option>
+              </select>
+              <button>+</button>
+          </div>
+      </div>
 
-    </div>
-    <br>
-    <h3 id="task-title">Other Tasks</h3>
-    <div id="not-urgent">
-
-    </div>
-    </section>
-    <section id="filler">
-    <div>
-
-    </div>
-    </section>
-  <script src="script.js"></script>
+      <!--Todo List-->
+      <div class="todo-list">
+          <h2>Todo List</h2>
+          <div class="task-container">
+              <h3>Task 1</h3>
+              <p>Description of task 1</p> 
+              <div class="todo-actions">
+                  <button class="action-button">✓</button>
+                  <button class="action-button">🗑️</button>
+                  <button class="action-button">Edit</button>
+              </div>
+              <p class="due">Apr 29, 11:59PM (PDT)</p> 
+          </div>
+        
+          <div class="task-container">
+              <h3>Task 2</h3>
+              <p>Description of task 2</p> 
+              <div class="todo-actions">
+                  <button class="action-button done">✓</button>
+                  <button class="action-button remove">🗑️</button>
+                  <button class="action-button">Edit</button>
+              </div>
+              <p class="due">Apr 29, 11:59PM (PDT)</p> 
+          </div>
+      </div>
+  </div>
 </body>
 </html>

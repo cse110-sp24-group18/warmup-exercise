@@ -1,13 +1,50 @@
-#task-list{
-    float:left;
-    background:#9CE6A9;
-    padding:2%;
-    border-radius: 25px;
-    font-family: FreeMono, monospace;
+body {
+    font-family: 'Arial';
+    background-color: #f0f0f0;
 }
 
-#task-title{
-    margin:0%;
-    margin-bottom: 5%;
+h1 {
+    text-align: center;
+    padding: 10px;
 }
 
+.add-task-container{
+    width: 60%;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px auto;
+    border-radius: 8px;
+}
+
+.todo-list {
+    width: 60%;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px auto;
+    border-radius: 8px;
+}
+
+.task-container {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px auto;
+    border-radius: 8px;
+}
+
+.action-button {
+  font-size: 16px;
+  width: 45px;
+  text-align: center;
+  border: 1.5px solid;
+  border-radius: 5px; 
+}
+
+.due {
+  width: 200px;
+  font-size: 16px;
+  text-align: center;
+  border: 2px solid;
+  border-radius: 5px; 
+}
