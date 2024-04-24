@@ -11,7 +11,7 @@ function renderList(data){
     contentDiv.innerHTML = '';
 
     // headings for top row of Task List
-    const HEADINGS = ['TASK', 'TAG', 'DATE', 'ACTION']
+    const HEADINGS = ['PRIO', 'TASK', 'TAG', 'DATE', 'ACTION']
     generateHeader(HEADINGS);
     genLegend();
 
@@ -110,7 +110,7 @@ function renderList(data){
     Generates the HTML for the legend.
 */
 function genLegend(){
-    const TAGS = ['Personal', 'Work', 'School', 'Misc'];
+    const TAGS = ['Personal', 'Work', 'School', 'Misc']     ;
     const legendDiv = document.getElementById('legend')
     legendDiv.textContent = '';
 
@@ -191,6 +191,13 @@ function genSubmissionEdit(nodeArr){
     const descInput = document.getElementById('descInput');
     const selectInput = document.getElementById('selectInput');
     const dateInput = document.getElementById('dateInput');
+    console.log(nodeArr);
+
+    // set color
+    const color = document.getElementById('grid-header').backgroundColor;
+    nodeArr.forEach(node => {
+        node.style.backgroundColor = '#121B2E';
+    })
 
     // adding default placeholders based on row being edited
     taskInput.value = nodeArr[1].textContent;
@@ -205,10 +212,16 @@ function genSubmissionEdit(nodeArr){
     const newButton = document.createElement('button');
     newButton.innerHTML = button.innerHTML;
     newButton.id = 'submitButton';
+    newButton.type = 'submit';
+    newButton.className = 'editButton';
     parent.appendChild(newButton);
 
     // adding new EventListener to new button
     document.getElementById('submitButton').addEventListener('click', function(event){
+        nodeArr.forEach(node => {
+            node.style.backgroundColor = color;
+        })
+
         // updating new values to insert to Task List
         const task = taskInput.value;
         var desc = '';
@@ -301,7 +314,8 @@ function returnSubmission(){
     const button = document.createElement('button');
     button.type = 'submit';
     button.id = 'submitButton';
-    button.textContent = 'Submit';
+    button.textContent = '+';
+    button.className = 'defaultSubmit';
 
     formRow.appendChild(taskInput);
     formRow.append(descInput);
@@ -372,6 +386,7 @@ function submitButtonUpdate(){
         const date = document.getElementById('dateInput').value;
         const prio = 0;
         const comp = 0;
+        returnSubmission();
         if (submissionErrorHandler(task,desc,tag,date) > 0){
             addRow([{task,prio,comp,date,tag,desc}]);
         }
@@ -391,15 +406,23 @@ function submitButtonUpdate(){
 */
 function submissionErrorHandler(task,desc,tag,date){
     if (date == null){
-        alert('Please insert valid date.')
+        alert('Please insert valid date.');
         return -1;
     }
     if (task == null || task == ''){
-        alert('Please insert a task.')
+        alert('Please insert a task.');
+        return -1;
+    }
+    if (task.length > 20){
+        alert('Task name too long (20 characters or less).');
         return -1;
     }
     if (desc == null){
-        alert('Please insert a valid description.')
+        alert('Please insert a valid description.');
+        return -1;
+    }
+    if (desc.length > 50){
+        alert('Description name too long (50 characters or less).');
         return -1;
     }
     return 1;
@@ -505,19 +528,19 @@ function currentData(){
 function dotColor(tag){
     const TAGS = ['Personal', 'Work', 'School', 'Misc']
     if (tag == TAGS[0]){
-        return 'red';
+        return '#DB897D';
     }
     else if (tag == TAGS[1]){
-        return 'blue';
+        return '#A79EDB';
     }
     else if (tag == TAGS[2]){
-        return 'green';
+        return '#55DB9C';
     }
     else if (tag == TAGS[3]){
-        return 'yellow';
+        return '#DBCA56';
     }
     else {
-        return 'white';
+        return '#6E8A7D';
     }
 }
 
@@ -529,10 +552,6 @@ function dotColor(tag){
 */
 function generateHeader(heading_arr){
     const headingRow = document.getElementById('current-tasks');
-    const filler = document.createElement('div');
-    filler.className = "grid-item";
-    filler.id = "grid-header";
-    headingRow.appendChild(filler);
     heading_arr.forEach(head => {
         const newGridElement = document.createElement('div');
         newGridElement.textContent = head;
