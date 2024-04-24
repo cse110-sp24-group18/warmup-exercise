@@ -429,6 +429,58 @@ function submissionErrorHandler(task,desc,tag,date){
 }
 
 /*
+    readErrorHandler(task,desc,tag,date,prio):
+    task,desc,tag,date,prio - checks each property for errors
+
+    Helper function for cleanJSON that flags errors.
+*/
+function readErrorHandler(task,desc,tag,date,prio){
+    if (date == null){
+        return -1;
+    }
+    if (task == null || task == ''){
+        return -1;
+    }
+    if (task.length > 20){
+        return -1;
+    }
+    if (desc == null){
+        return -1;
+    }
+    if (desc.length > 50){
+        return -1;
+    }
+    if (tag != 'Personal' && tag != 'Work' && tag != 'School' && tag != 'Misc'){
+        return -1;
+    }
+    if (prio != 0 && prio != 1){
+        return -1;
+    }
+    return 1;
+}
+
+/*
+    cleanJSON(dict):
+    dict - JSON dictionary
+
+    Cleans the dictionary and flags errors rendering website.
+*/
+function cleanJSON(dict){
+    var newData = [];
+    var errorCount = 0;
+    dict.forEach(item => {
+        passFlag = readErrorHandler(item.task, item.desc, item.tag, item.date, item.prio);
+        if (passFlag != -1){
+            newData.push(item);
+        } else {
+            errorCount++;
+        }
+    })
+    console.log(`On JSON load there were ${errorCount} total invalid entries.`);
+    return newData;
+}
+
+/*
     addRow(row):
     row - row to be added
 
@@ -588,9 +640,8 @@ function sortTasks(tasks){
 fetch('data.json')
     .then(response => response.json())
     .then(data => {
-        renderList(sortTasks(data));
-        console.log(sortTasks(data))
+        const startData = sortTasks(cleanJSON(data));
         console.log("Initial load");
-        console.log(currentData());
+        renderList(startData);
     })
     .catch(error => console.error('Error fetching JSON:', error));

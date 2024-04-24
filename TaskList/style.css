@@ -259,7 +259,7 @@ input[type=date] {
     background-image: url('assets/delete.png');
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
     .center{
         width:auto;
         margin: 0px;
