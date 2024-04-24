@@ -1,13 +1,19 @@
+/* Container for centering */
 .slidecontainer {
-  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50%; /* Take full height of the viewport */
+  margin-bottom: 100px;
 }
 
 .slider {
   -webkit-appearance: none;
-  width: 100%;
+  width: 60%;
   height: 25px;
   background: #d3d3d3;
-  outline: none;
+  outline: solid;
   opacity: 0.7;
   -webkit-transition: .2s;
   transition: opacity .2s;
@@ -31,4 +37,47 @@
   height: 25px;
   background: #04AA6D;
   cursor: pointer;
+}
+
+#emojiDisplay {
+  font-size: 5em;
+  text-align: center;
+}
+
+#feelingTxt{
+  font-size: 2em;
+  text-align: center;
+  margin-top: -10em;
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1{
+  text-align: center;
+  margin-bottom: -2em;
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3em;
+}
+
+p{
+  margin-top: -0.5em;
+}
+
+.dollar {
+  position: absolute;
+  font-size: 24px;
+  animation: fall 5s linear forwards;
+}
+
+/* Add animation for the falling effect */
+@keyframes fall {
+  from {
+      transform: translateY(-100%);
+  }
+  to {
+      transform: translateY(95vh);
+  }
 }
