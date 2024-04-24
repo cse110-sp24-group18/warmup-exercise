@@ -47,6 +47,11 @@
 #task-desc {
     grid-column-start: 1;
     grid-column-end: 6;
+    min-height: 40px;
+    padding-top: 15px;
+    padding-left: 80px;
+    color:aliceblue;
+    background-color: rgb(124, 116, 153);
 }
 
 .form-row {

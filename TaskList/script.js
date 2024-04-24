@@ -90,7 +90,8 @@ function renderList(data){
         // adds an invisible description, can use later
         const descGridElement = document.createElement('div');
         descGridElement.textContent = item.desc;
-        descGridElement.id = 'task-desc'
+        descGridElement.id = 'task-desc';
+        descGridElement.className = item.task;
         descGridElement.style.display = "none";
         contentDiv.appendChild(actionGridElement);
         contentDiv.appendChild(descGridElement);
@@ -319,6 +320,13 @@ function delCheckboxUpdate(){
     checkboxArr.forEach(checkbox => {
         checkbox.addEventListener('change', () => {
             if (checkbox.checked == true){
+                const taskName = checkbox.id;
+                const descriptions = document.querySelectorAll(`#task-desc`);
+                descriptions.forEach(desc => {
+                    if (desc.className == taskName){
+                        desc.style.display = 'none';
+                    }
+                })
                 console.log(`delete ${checkbox.id}`);
                 deleteRow(checkbox.parentNode);
             }
@@ -335,10 +343,18 @@ function compCheckboxUpdate(){
     const checkboxArr = document.querySelectorAll('.checkbox-comp');
     checkboxArr.forEach(checkbox => {
         checkbox.addEventListener('change', () => {
-            if (checkbox.checked == true){
-                console.log(`completed ${checkbox.id}`);
-                deleteRow(checkbox.parentNode);
-            }
+                const taskName = checkbox.id;
+                console.log(`Toggle description display for ${taskName}`);
+                const descriptions = document.querySelectorAll(`#task-desc`);
+                descriptions.forEach(desc => {
+                    if (desc.className == taskName){
+                        if (checkbox.checked == true){
+                            desc.style.display = 'grid';
+                        } else {
+                            desc.style.display = 'none';
+                        }
+                    }
+                })
         });
     });
 }
