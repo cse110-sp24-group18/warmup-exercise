@@ -4,7 +4,7 @@
 
 
 ### Wireframe
-[![App Platorm](images/IMG_6194.jpg)
+![Wireframe](images/IMG_6194.jpg = 100x20)
 
 ### Installation
 
