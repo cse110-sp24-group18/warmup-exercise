@@ -27,8 +27,7 @@
 - No Major Programming issues, simple quality of life adjustments such as smoothness and improvements in visual design.
 
 ### Live Demo
-- <video width="320" height="240" controls>
-  <source src="images/Demo.mov" type="video/mp4">
-</video>
+- <video src="images/Demo.mov" type="video/mp4"/>
+
 
 ### Aknowledgements
