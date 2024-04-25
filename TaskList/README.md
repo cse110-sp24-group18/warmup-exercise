@@ -2,7 +2,7 @@
 Description goes here
 
 ## Audience
-Students (Us)
+Students (Us, elaborate)
 
 ## Required Features
 Ability to add tasks, ability to delete tasks, ability to read in tasks, ability to existing tasks.
@@ -19,12 +19,22 @@ After this we added other features that we thought would be useful for the targe
 We took a code first approach to this because a task list is not going to work with no JavaScript anyways. The HTML is mostly blank and all the functionality works through the CSS and JS combined. 
 We believe this the correct approach because the it is impossible to convey any functionality through just HTML and the target audience is likely to have access to working JS.
 
+## Wireframe
+
+# Task List Usage
+
+## Installation
+https://hosting-test-production-67d1.up.railway.app/
+Access the current production site here.
+
 ## Accessibility
 Not all the buttons can be tabbed to, but tasks can still be added by tabbing.
 Application is adaptive to screen size and tested to work on very small screens.
 Colorblind palette to accomodate for colorblind
 
 ## Application Overview
+
+### Application Features
 Top row to add new tasks (ADD PICTURES)
 Under that is legend with tasks
 Under that is actual tasklist
@@ -34,9 +44,16 @@ EDIT (add explaination and pictures)
 DESCRIPTION
 DELETE
 
+### Usage
+Explain usage, through example use cases
+
+### Live Demo
+Video here
+
 ## Limitations
 Due to time contraints, instead of adding a ton of guards everywhere, opted to limited amount of possible text in task names and descriptions as a compromise. 
-Also could not push certain other features like creating a task with prio, etc. Time is the biggest limiting factor.
+Also could not push certain other features like creating a task with prio, etc. Time is the biggest limiting factor. The other large limiting factor is opting out of 
+using a database for this project and working around that due to programming and time constraints. This would have lowered code complexity significantly.
 
-## Members
+## Acknowledgements
 Michael Cheung, Min Kim, Taiki Yoshino
