@@ -28,8 +28,14 @@
 
 ### Live Demo
 
--  [![]((https://youtu.be/HsndNf12wpM))](https://youtu.be/HsndNf12wpM)
+-  [![Live Demo]](https://youtu.be/HsndNf12wpM)
 
 
 
 ### Aknowledgements
+- **Ryan Seidl:** HTML
+- **Aritra Dutta** JavaScript
+- **Elijah Hosaka** CSS
+- **Sam Hormozian** Documentation
+
+ 
