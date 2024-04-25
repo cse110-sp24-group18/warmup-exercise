@@ -4,7 +4,7 @@
 
 
 ### Wireframe
-[![App Platorm](https://files.slack.com/files-pri/T06U7TNQYUQ-F070GHVPXJS/img_6194.jpg)
+[![App Platorm](/warmup-excercise/slider/images/)
 
 ### Installation
 
