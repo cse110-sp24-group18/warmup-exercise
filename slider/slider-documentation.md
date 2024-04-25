@@ -27,7 +27,7 @@
 - No Major Programming issues, simple quality of life adjustments such as smoothness and improvements in visual design.
 
 ### Live Demo
-- <video src="images/Demo.mov" type="video/mp4"/>
+- ![](images/Demo.mov)
 
 
 ### Aknowledgements
