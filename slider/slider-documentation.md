@@ -27,7 +27,8 @@
 - No Major Programming issues, simple quality of life adjustments such as smoothness and improvements in visual design.
 
 ### Live Demo
--  [![Watch the video]([https://i.stack.imgur.com/Vp2cE.png](https://youtu.be/HsndNf12wpM))]
+
+-  https://youtu.be/HsndNf12wpM
 
 
 ### Aknowledgements
