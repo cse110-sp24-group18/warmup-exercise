@@ -3,8 +3,8 @@
 ## Overview
 Are you overwhelmed with tasks and often find yourself forgetting important deadlines? Whether you're a busy professional juggling multiple responsibilities or a college student buried under assignments, our TaskList Widget is here to help! The Task List Widget is a simple yet powerful tool designed to streamline task management and keep you on track. With its simple interface, you can easily add, remove, and update tasks.
 ## Audience and User Stories
-![Task List 1](/userstory1_tasklist.png)
-![Task List 2](/userstories_tasklist2.png)
+![Task List 1](userstory1_tasklist.png)
+![Task List 2](userstories_tasklist2.png)
 
 ## Required Features
 Ability to add tasks, ability to delete tasks, ability to read in tasks, ability to existing tasks.
