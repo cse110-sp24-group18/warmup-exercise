@@ -21,12 +21,12 @@
 
 
 ### Usage
-
+- **Select** and **Hold** the Range slider handle and **Move** left to right 
 
 ### Troubleshooting
-
+- No Major Programming issues, simple quality of life adjustments such as smoothness and improvements in visual design.
 
 ### Live Demo
-
+- 
 
 ### Aknowledgements
