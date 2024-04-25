@@ -20,6 +20,9 @@ We took a code first approach to this because a task list is not going to work w
 We believe this the correct approach because the it is impossible to convey any functionality through just HTML and the target audience is likely to have access to working JS.
 
 ## Wireframe
+![Task List Wireframe](assets/wireframe warmup.jpg)
+This is the wireframe for the project. Initially we decided on the top left design as a starting point after discussion of basic features we wanted. Then with some inspiration, we decided to make 
+the design look more minimalistic and removed the need for a 'complete' section after some discussion. Then the design was more or less finalized after that.
 
 # Task List Usage
 
