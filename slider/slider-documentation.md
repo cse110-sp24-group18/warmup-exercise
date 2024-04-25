@@ -11,13 +11,14 @@
 
 ### Features
 
-**5 States**
+**5 States:**
 
-| Month    | Savings |
-| -------- | ------- |
-| January  | $250    |
-| February | $80     |
-| March    | $420    |
+| Left 2 | Left 1 | Initial State | Right 1 | Right 2  |
+|----------|----------|----------|----------|----------|
+|    Devasted |    Sad|    Indifferent |    Happy |    Amazing |
+|      😭  |    😢  |    🫤          |    😁    |    🤣 |
+|    Row 3 |    Row 3 |    Row 3 |    Row 3 |    Row 3 |
+|    Row 3 |    Row 3 |    Ro w 3 |    Row 3 |    Row 3 |
 
 ### Usage
 
