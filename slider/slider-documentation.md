@@ -13,8 +13,11 @@
 
 **5 States**
 
-    **Intiatial State** **Move handle left 1** **Move handle left 2** **Move handle right 1** **Move handle right 2**
-
+| Month    | Savings |
+| -------- | ------- |
+| January  | $250    |
+| February | $80     |
+| March    | $420    |
 
 ### Usage
 
