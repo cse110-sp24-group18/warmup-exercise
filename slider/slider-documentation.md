@@ -4,7 +4,7 @@
 
 
 ### Wireframe
-[![App Platorm](https://doimages.nyc3.cdn.digitaloceanspaces.com/002Blog/0-BLOG-BANNERS/app_platform.png)]
+[![App Platorm](https://files.slack.com/files-pri/T06U7TNQYUQ-F070GHVPXJS/img_6194.jpg)
 
 ### Installation
 
