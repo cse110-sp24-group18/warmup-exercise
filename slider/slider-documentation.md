@@ -28,7 +28,7 @@
 
 ### Live Demo
 
--  Use [[this Link](https://youtu.be/HsndNf12wpM) to view the Live Demo
+-  Use [this Link](https://youtu.be/HsndNf12wpM) to view the Live Demo
 
 
 
