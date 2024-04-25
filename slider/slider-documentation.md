@@ -4,7 +4,7 @@
 
 
 ### Wireframe
-![Wireframe](images/IMG_6194.jpg = 100x20)
+![Wireframe](images/IMG_6194.jpg)
 
 ### Installation
 
