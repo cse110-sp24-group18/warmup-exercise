@@ -1,16 +1,16 @@
 # Slider Widget
 
 ## Overview
-- A slider widget provides a user-friendly interface element for adjusting values within a predefined range by sliding a handle along a track. It can be used to select a value, such as volume control, brightness level, or a numeric range in data visualization, offering intuitive and interactive functionality for users.
+- The slider widget provides a user-friendly interface element for adjusting values within a predefined range by sliding a handle along a track. User is asked how they are feeling and user can choose from Devastated to Amazing with its respective color and emoji.
 
 ### Wireframe
-<img src="images/IMG_6194.jpg" alt="wireframe" width="300"/>
+- <img src="images/IMG_6194.jpg" alt="wireframe" width="300"/>
 
 ### Installation
-
+- Use [this link](https://html-preview.github.io/?url=https://github.com/cse110-sp24-group18/warmup-exercise/blob/slider-full-implementation/slider/slider-widget.html) to run program.
 
 ### Features
-
+-
 
 ### Usage
 
