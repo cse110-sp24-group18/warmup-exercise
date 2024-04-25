@@ -1,7 +1,7 @@
 # Slider Widget
 
 ## Overview
-- The slider widget provides a user-friendly interface element for adjusting values within a predefined range by sliding a handle along a track. User is asked how they are feeling and user can choose from Devastated to Amazing with its respective color and emoji.
+- The slider widget provides a user-friendly interface element for adjusting values within a predefined range by sliding a handle along a track. User is asked how they are feeling and user can choose from **Devastated** to **Amazing** with its respective background color and emoji. Additionally, choosing **Amazing** results in money emojis falling from the top of the screen to the bottom
 
 ### Wireframe
 - <img src="images/IMG_6194.jpg" alt="wireframe" width="300"/>
@@ -16,9 +16,9 @@
 | Left 2 | Left 1 | Initial State | Right 1 | Right 2  |
 |----------|----------|----------|----------|----------|
 |    Devasted |    Sad|    Indifferent |    Happy |    Amazing |
-|      😭  |    😢  |    🫤          |    😁    |    🤣 |
-|    Row 3 |    Row 3 |    Row 3 |    Row 3 |    Row 3 |
-|    Row 3 |    Row 3 |    Ro w 3 |    Row 3 |    Row 3 |
+|      😭  |    😢  |    🫤          |    😁    |    🤣 + 💵|
+|    🔵 |   ⚪️ |     ⚪️ |     ⚪️ |    🟢 |
+
 
 ### Usage
 
