@@ -4,7 +4,7 @@
 
 
 ### Wireframe
-[![Slider-Wireframe](https://files.slack.com/files-pri/T06U7TNQYUQ-F070GHVPXJS/img_6194.jpg)]
+[Slider-Wireframe](https://files.slack.com/files-pri/T06U7TNQYUQ-F070GHVPXJS/img_6194.jpg)
 
 ### Installation
 
