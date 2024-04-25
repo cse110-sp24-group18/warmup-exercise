@@ -27,6 +27,6 @@
 - No Major Programming issues, simple quality of life adjustments such as smoothness and improvements in visual design.
 
 ### Live Demo
-- ![demo](Demo.mov)
+- ![demo](images/Demo.mov)
 
 ### Aknowledgements
