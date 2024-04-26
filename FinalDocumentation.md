@@ -246,7 +246,13 @@ Then, we created a wireframe for the same diagram to organize our ideas properly
 
 
 ## Testing and Troubleshooting
-- No Major Programming issues, simple quality of life adjustments such as smoothness and improvements in visual design.
+- For testing and troubleshooting, we employed a combination of JUnit tests and GitHub Issues to ensure the stability of our widgets while also facilitating effective communication and issue resolution within our team.
+
+### JUnit Tests
+- We wrote a series of JUnit tests to validate the functionality of our widget's core features. These tests covered various scenarios and edge cases to verify that the widget behaved as expected under different conditions.
+
+### GitHub Issues
+- To track and manage issues encountered during testing and development, we utilized GitHub's issue tracking system. We created detailed issue reports for each identified problem, including bug reports and feature requests.
 
 
 ## Limitations
@@ -255,4 +261,4 @@ Then, we created a wireframe for the same diagram to organize our ideas properly
 - For the slider, simplicity of program does not allow diverse changes
 
 ## Acknowledgements
-Michael Cheung, Min Kim, Taiki Yoshino
+Ishika Agrawal, Bernico Chandra, Michael Cheung, Min Kim, Taiki Yoshino, Ryan Seidl, Elijah Hosaka, Sam Hormozian, Aritra Dutta, Rick Rodness, Sarena
