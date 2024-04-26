@@ -55,7 +55,7 @@
 
 h1{
   text-align: center;
-  margin-bottom: -1em; /* Adjusted margin to fix overlap */
+  margin-bottom: -2em;
   font-family: "Chakra Petch", sans-serif;
   font-weight: 400;
   font-style: normal;
