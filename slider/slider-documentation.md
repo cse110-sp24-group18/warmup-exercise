@@ -23,7 +23,7 @@
 
 | Change Slider Position | Change Background Color | Change Emoji | Money Fall |
 |----------|----------|----------|----------|
-|    Data  |    Data  |    Data  |    Data  |  
+|    ```Data```  |    ```Data```  |    ```Data```  |    ```Data```  |  
 
 ### Usage
 - **Select** and **Hold** the Range slider handle and **Move** left to right 
