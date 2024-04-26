@@ -153,7 +153,7 @@ Initially, in our first brainstorming meeting, we created a rough diagram of wha
 
 Then, we did some sketch wireframes to see how it would all fit together and draw inspiration:
 
-![Hand Drawn Wireframe](assets/wireframe%20warmup.jpg)
+![Hand Drawn Wireframe](/DocumentationImages/wireframe%20warmup.jpg)
 
 Then, we created a wireframe for the same diagram to organize our ideas properly:
 
