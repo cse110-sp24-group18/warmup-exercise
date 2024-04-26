@@ -58,7 +58,7 @@ emojiDisplay.textContent = '🤣'; // Crying Laughing Face
 
 ### Devastated (Move Slider Left Twice)
 
-<img src="images/Devastated.png" alt="diagram" width="300"/>
+<img src="images/Devasted.png" alt="diagram" width="300"/>
 
 ```
  emojiDisplay.textContent = '😭'; // Crying Emoji
