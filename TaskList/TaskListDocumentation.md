@@ -22,6 +22,11 @@ Are you overwhelmed with tasks and often find yourself forgetting important dead
 ### Sort tasks based on due date
 (ADD FUNCTION DESCRIPTION)
 
+## Wireframes and Diagrams
+Initially, in our first brainstorming meeting, we created a rough diagram of what we wanted our widget to look like:
+
+Then, we created a wireframe for the same diagram to organize our ideas properly:
+
 
 ## Design Insights
 Due to short timeframe, we took the ideas of what we deemed as necessary features for our audience built this up with heavily inspired visuals from a different task list app.
