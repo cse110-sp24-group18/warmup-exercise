@@ -151,7 +151,7 @@ function genSubmissionEdit(nodeArr){
 (ADD FUNCTION DESCRIPTION)
 
 ## Features and Usage (Slider Widget)
-- **Select** and **Hold** the Range slider handle and **Move** left to right
+**Select** and **Hold** the Range slider handle and **Move** left to right
 
 ### Indifferent (Initial State)
 
@@ -228,7 +228,7 @@ Then, we created a wireframe for the same diagram to organize our ideas properly
 
 
 ## Design Insights and Philosophy
-- Due to time constraints, we prioritized basic functionality in our app and took design inspirations from another task list app available online (![Link here](https://github.com/abdellatif-laghjaj/todo-list)
+- Due to time constraints, we prioritized basic functionality in our app and took design inspirations from another task list app available online ([Link here](https://github.com/abdellatif-laghjaj/todo-list)
 - Building upon this foundation, we incorporated various other features to enhance the user experience for our target audience. These additional features are imperative for making sure that our applicaton is easy to use and contributes significantly to user satisfaction.
 - Our approach centered on code-first development. Given that a task list relies heavily on JavaScript for interactivity, we adopted a minimal HTML structure, relying on CSS and JavaScript to drive functionality and visual presentation.
 - Our approach remained similar for the slider widget
