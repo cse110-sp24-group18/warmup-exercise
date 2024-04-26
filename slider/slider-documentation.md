@@ -51,7 +51,11 @@ emojiDisplay.textContent = '🤣'; // Crying Laughing Face
 
 - A rough Diagram of what our widget looks like
   
-- <img src="images/IMG_6194.jpg" alt="wireframe" width="300"/>
+- <img src="images/IMG_6194.jpg" alt="diagram" width="300"/>
+
+- Screen 3 Shows a wirefram for our widget
+
+- <img src="/TaskList/wireframe.png" alt="wireframe" width="300"/>
 
 ## Installation
 - Use [this link](https://html-preview.github.io/?url=https://github.com/cse110-sp24-group18/warmup-exercise/blob/slider-full-implementation/slider/slider-widget.html) to run program.
