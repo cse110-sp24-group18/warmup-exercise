@@ -40,14 +40,15 @@
 }
 
 #emojiDisplay {
-  font-size: 5em;
+  font-size: 3em; /* Adjusted font size */
   text-align: center;
+  margin-top: 2em; /* Added margin for spacing */
 }
 
 #feelingTxt{
   font-size: 2em;
   text-align: center;
-  margin-top: -10em;
+  margin-top: 1em; /* Adjusted margin to reduce overlap */
   font-family: "Chakra Petch", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -55,15 +56,15 @@
 
 h1{
   text-align: center;
-  margin-bottom: -2em;
+  margin-bottom: 1em; /* Adjusted margin */
   font-family: "Chakra Petch", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 3em;
+  font-size: 2em; /* Adjusted font size */
 }
 
 p{
-  margin-top: -0.5em;
+  margin-top: 0.5em;
 }
 
 .dollar {
