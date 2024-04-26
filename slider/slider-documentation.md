@@ -12,23 +12,41 @@
 - **Select** and **Hold** the Range slider handle and **Move** left to right
 
 ### Indifferent (Initial State)
-(ADD FUNCTION DESCRIPTION)
+```
+  emojiDisplay.textContent = '🫤'; // Neutral Face
+          feelingTxt.textContent = 'Indifferent'; 
+          changeBackgroundColor('white');
+          break;
+```
 ### Happy (Move Slider Right Once)
-(ADD FUNCTION DESCRIPTION)
+```
+ emojiDisplay.textContent = '😁'; // Smiling Face with Teeth
+          feelingTxt.textContent = 'Happy'; 
+          changeBackgroundColor('white');
+          break;
+```
 ### Amazing (Move Slider Right Twice)
-(ADD FUNCTION DESCRIPTION)
+```
+emojiDisplay.textContent = '🤣'; // Crying Laughing Face
+          feelingTxt.textContent = 'Amazing'; 
+          startDollarRain();
+          changeBackgroundColor('green');
+          break;
+```
 ### Sad (Move Slider Left Once)
-(ADD FUNCTION DESCRIPTION)
+```
+ emojiDisplay.textContent = '😢'; // Face with Sad Tear
+          feelingTxt.textContent = 'Sad'; 
+          changeBackgroundColor('white');
+          break;
+```
 ### Devastated (Move Slider Left Twice)
-(ADD FUNCTION DESCRIPTION)
-                                                     
-
-| Left 2 | Left 1 | Initial State | Right 1 | Right 2  |                   
-|----------|----------|----------|----------|----------|
-|    Devasted |    Sad|    Indifferent |    Happy |    Amazing |
-|      😭  |    😢  |    🫤          |    😁    |    🤣 + 💵|
-|    🔵 |   ⚪️ |     ⚪️ |     ⚪️ |    🟢 |
-
+```
+ emojiDisplay.textContent = '😭'; // Crying Emoji
+          feelingTxt.textContent = 'Devastated';
+          changeBackgroundColor('blue');
+          break;
+```                                                    
 ## Wireframes and Diagrams
 
 - A rough Diagram of what our widget looks like
