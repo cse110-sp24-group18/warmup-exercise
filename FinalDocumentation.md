@@ -1,7 +1,37 @@
-# Task List
+# Documentation
+
+
+## Installation
+- Use [this link](https://html-preview.github.io/?url=https://github.com/cse110-sp24-group18/warmup-exercise/blob/slider-full-implementation/slider/slider-widget.html) to run program.
+
+## Design Insights and Philosphy
+
+## Accessibility
+
+- Straightforward use of slider handle to select current mood
+
+## Application Overview
+
+## Testing and Troubleshooting
+- No Major Programming issues, simple quality of life adjustments such as smoothness and improvements in visual design.
+
+## Live Demo
+
+-  Use [this Link](https://youtu.be/HsndNf12wpM) to view the Live Demo
+
+## Limitations
+
+- Simplicity of program does not allow diverse changes
+
+______________
 
 ## Overview
-Are you overwhelmed with tasks and often find yourself forgetting important deadlines? Whether you're a busy professional juggling multiple responsibilities or a college student buried under assignments, our TaskList Widget is here to help! The Task List Widget is a simple yet powerful tool designed to streamline task management and keep you on track. With its simple interface, you can easily add, remove, and update tasks.
+We created 2 widgets - the Task List and the Sentiment Analysis
+
+- The task list widget is a simple yet powerful tool designed to streamline task management and keep users on track. Are you overwhelmed with tasks and often find yourself forgetting important deadlines? Whether you're a busy professional juggling multiple responsibilities or a college student buried under assignments, our TaskList Widget is here to help! With its simple interface, you can easily add, remove, and update tasks.
+
+- The slider widget provides a user-friendly interface element for adjusting values within a predefined range by sliding a handle along a track. User is asked how they are feeling and user can choose from **Devastated** to **Amazing** with its respective background color and emoji. Additionally, choosing **Amazing** results in money emojis falling from the top of the screen to the bottom (bringing our team Triton Financial Solutions's theme into the picture).
+
 
 ## Audience and User Stories
 
@@ -9,7 +39,7 @@ Are you overwhelmed with tasks and often find yourself forgetting important dead
 
 ![Task List 2](/DocumentationImages/userstories_tasklist2.png)
 
-## Features and Usage
+## Features and Usage (Task List Widget)
 ### Add tasks
 Adding tasks can be done at the top of the TODO List. This can be done by entering a task name, task description (optional), applying a tag, and entering a date. The 'plus' button can then be pressed to add this new task to the list.
 
@@ -145,11 +175,73 @@ function genSubmissionEdit(nodeArr){
 ### Task Sorting
 (ADD FUNCTION DESCRIPTION)
 
+## Features and Usage (Slider Widget)
+- **Select** and **Hold** the Range slider handle and **Move** left to right
+
+### Indifferent (Initial State)
+
+ <img src="slider/images/Indifferent.png" alt="indifferent" width="300"/>
+ 
+```
+  emojiDisplay.textContent = '🫤'; // Neutral Face
+          feelingTxt.textContent = 'Indifferent'; 
+          changeBackgroundColor('white');
+          break;
+```
+
+### Happy (Move Slider Right Once)
+
+<img src="slider/images/Happy.png" alt="happy" width="300"/>
+
+```
+ emojiDisplay.textContent = '😁'; // Smiling Face with Teeth
+          feelingTxt.textContent = 'Happy'; 
+          changeBackgroundColor('white');
+          break;
+```
+
+### Amazing (Move Slider Right Twice)
+
+<img src="slider/images/Amazing.png" alt="amazing" width="300"/>
+
+```
+emojiDisplay.textContent = '🤣'; // Crying Laughing Face
+          feelingTxt.textContent = 'Amazing'; 
+          startDollarRain();
+          changeBackgroundColor('green');
+          break;
+```
+
+### Sad (Move Slider Left Once)
+
+<img src="slider/images/Sad.png" alt="sad" width="300"/>
+
+```
+ emojiDisplay.textContent = '😢'; // Face with Sad Tear
+          feelingTxt.textContent = 'Sad'; 
+          changeBackgroundColor('white');
+          break;
+```
+
+### Devastated (Move Slider Left Twice)
+
+<img src="slider/images/Devasted.png" alt="diagram" width="300"/>
+
+```
+ emojiDisplay.textContent = '😭'; // Crying Emoji
+          feelingTxt.textContent = 'Devastated';
+          changeBackgroundColor('blue');
+          break;
+```
+                              
+
 ## Wireframes and Diagrams
 
-Initially, in our first brainstorming meeting, we created a rough diagram of what we wanted our widget to look like:
+Initially, in our first brainstorming meeting, we created a rough diagram of what we wanted both our widget to look like:
 
-![Rough Sketch](/DocumentationImages/IMG_0276.jpg)
+![Rough Sketch TaskList](/DocumentationImages/IMG_0276.jpg)
+
+![Rough Sketch Slider](/DocumentationImages/IMG_6194.jpg)
 
 Then, we did some sketch wireframes to see how it would all fit together and draw inspiration:
 
@@ -158,6 +250,9 @@ Then, we did some sketch wireframes to see how it would all fit together and dra
 Then, we created a wireframe for the same diagram to organize our ideas properly:
 
 ![Wireframe](/DocumentationImages/wireframe.png)
+
+
+
 
 ## Design Insights and Philosophy
 Due to time constraints, we prioritized basic functionality in our app and took design inspirations from another task list app available online.
