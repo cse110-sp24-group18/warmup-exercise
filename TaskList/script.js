@@ -291,7 +291,7 @@ function returnSubmission(){
     taskInput.type = 'text';
     descInput.type = 'text';
     taskInput.placeholder = 'TODO';
-    descInput.placeholder = 'DESC';
+    descInput.placeholder = 'DESCRIPTION';
     taskInput.id = 'textInput';
     descInput.id = 'descInput';
     const selectInput = document.createElement('select');
