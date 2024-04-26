@@ -236,7 +236,7 @@ Then, we created a wireframe for the same diagram to organize our ideas properly
 - Our approach remained similar for the slider widget
 
 ## Installation
-- Task list: ADD HERE
+- Task list: Use [this link](https://hosting-test-production-67d1.up.railway.app/) (We hosted our program on a website)
 - Slider: Use [this link](https://html-preview.github.io/?url=https://github.com/cse110-sp24-group18/warmup-exercise/blob/slider-full-implementation/slider/slider-widget.html) to run program.
 
 
