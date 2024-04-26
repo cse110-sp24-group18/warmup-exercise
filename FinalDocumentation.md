@@ -5,9 +5,9 @@ Are you overwhelmed with tasks and often find yourself forgetting important dead
 
 ## Audience and User Stories
 
-![Task List 1](DocumentationImages/userstory1_tasklist.png)
+![Task List 1](/DocumentationImages/userstory1_tasklist.png)
 
-![Task List 2](DocumentationImages/userstories_tasklist2.png)
+![Task List 2](/DocumentationImages/userstories_tasklist2.png)
 
 # Features and Usage
 ## Add tasks
