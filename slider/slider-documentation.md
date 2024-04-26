@@ -11,14 +11,19 @@
 
 ### Features
 
-**5 States:**
+**5 States:**                                                          
 
-| Left 2 | Left 1 | Initial State | Right 1 | Right 2  |
+| Left 2 | Left 1 | Initial State | Right 1 | Right 2  |                   
 |----------|----------|----------|----------|----------|
 |    Devasted |    Sad|    Indifferent |    Happy |    Amazing |
 |      😭  |    😢  |    🫤          |    😁    |    🤣 + 💵|
 |    🔵 |   ⚪️ |     ⚪️ |     ⚪️ |    🟢 |
 
+  **Functions Used**
+
+| Change Slider Position | Change Background Color | Change Emoji | Money Fall |
+|----------|----------|----------|----------|
+|    Data  |    Data  |    Data  |    Data  |  
 
 ### Usage
 - **Select** and **Hold** the Range slider handle and **Move** left to right 
