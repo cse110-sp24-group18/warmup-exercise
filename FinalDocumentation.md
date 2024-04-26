@@ -149,7 +149,7 @@ function genSubmissionEdit(nodeArr){
 
 Initially, in our first brainstorming meeting, we created a rough diagram of what we wanted our widget to look like:
 
-![Rough Sketch](IMG_0276.jpg)
+![Rough Sketch](/DocumentationImages/IMG_0276.jpg)
 
 Then, we did some sketch wireframes to see how it would all fit together and draw inspiration:
 
@@ -157,7 +157,7 @@ Then, we did some sketch wireframes to see how it would all fit together and dra
 
 Then, we created a wireframe for the same diagram to organize our ideas properly:
 
-![Wireframe](wireframe.png)
+![Wireframe](/DocumentationImages/wireframe.png)
 
 ## Design Insights and Philosophy
 Due to time constraints, we prioritized basic functionality in our app and took design inspirations from another task list app available online.
