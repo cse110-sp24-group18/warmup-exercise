@@ -9,8 +9,18 @@ Are you overwhelmed with tasks and often find yourself forgetting important dead
 ![Task List 2](userstories_tasklist2.png)
 
 ## Required Features
-Ability to add tasks, ability to delete tasks, ability to read in tasks, ability to existing tasks.
-
+### Add tasks
+(ADD FUNCTION DESCRIPTION)
+### Delete tasks
+(ADD FUNCTION DESCRIPTION)
+### Read in tasks
+(ADD FUNCTION DESCRIPTION)
+### Prioritize tasks
+(ADD FUNCTION DESCRIPTION)
+### Delete tasks
+(ADD FUNCTION DESCRIPTION)
+### Sort tasks based on due date
+(ADD FUNCTION DESCRIPTION)
 
 
 ## Design Insights
