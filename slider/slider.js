@@ -1,56 +1,37 @@
 document.getElementById('emojiSlider').addEventListener('input', function() {
   const emojiDisplay = document.getElementById('emojiDisplay');
   const value = parseInt(this.value);
+  const feelingTxt = document.getElementById('feelingTxt');
   switch (value) {
       case 1:
           emojiDisplay.textContent = '😭'; // Crying Emoji
-          break;
-      case 2:
-          emojiDisplay.textContent = '😢'; // Face with Tears of Joy
-          break;
-      case 3:
-          emojiDisplay.textContent = '🫤'; // Smiling Face with Heart-Eyes
-          break;
-      case 4:
-          emojiDisplay.textContent = '😁'; // Smiling Face with Sunglasses
-          break;
-      case 5:
-          emojiDisplay.textContent = '🤣'; // Thinking Face
-          break;
-      default:
-          emojiDisplay.textContent = '🫤';
-  }
-});
-
-document.getElementById('emojiSlider').addEventListener('input', function() {
-  const feelingTxt = document.getElementById('feelingTxt');
-  const value = parseInt(this.value);
-  const body = document.getElementById('body');
-  switch (value) {
-      case 1:
-          feelingTxt.textContent = 'Devastated'; // Crying Emoji
+          feelingTxt.textContent = 'Devastated';
           changeBackgroundColor('blue');
           break;
       case 2:
-          feelingTxt.textContent = 'Sad'; // Face with Sad Tear
+          emojiDisplay.textContent = '😢'; // Face with Sad Tear
+          feelingTxt.textContent = 'Sad'; 
           changeBackgroundColor('white');
           break;
       case 3:
-          feelingTxt.textContent = 'Indifferent'; // Neutral Face
+          emojiDisplay.textContent = '🫤'; // Neutral Face
+          feelingTxt.textContent = 'Indifferent'; 
           changeBackgroundColor('white');
           break;
       case 4:
-          feelingTxt.textContent = 'Happy'; // Smiling Face with Teeth
+          emojiDisplay.textContent = '😁'; // Smiling Face with Teeth
+          feelingTxt.textContent = 'Happy'; 
           changeBackgroundColor('white');
           break;
       case 5:
-          feelingTxt.textContent = 'Amazing'; // Crying Laughing Face
+          emojiDisplay.textContent = '🤣'; // Crying Laughing Face
+          feelingTxt.textContent = 'Amazing'; 
           startDollarRain();
           changeBackgroundColor('green');
           break;
       default:
-          emojiDisplay.textContent = '🫤';
-          changeBackgroundColor('white');
+        emojiDisplay.textContent = '🫤';
+        changeBackgroundColor('white');
   }
 });
 
