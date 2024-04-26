@@ -1,30 +1,5 @@
 # Documentation
 
-
-## Installation
-- Use [this link](https://html-preview.github.io/?url=https://github.com/cse110-sp24-group18/warmup-exercise/blob/slider-full-implementation/slider/slider-widget.html) to run program.
-
-## Design Insights and Philosphy
-
-## Accessibility
-
-- Straightforward use of slider handle to select current mood
-
-## Application Overview
-
-## Testing and Troubleshooting
-- No Major Programming issues, simple quality of life adjustments such as smoothness and improvements in visual design.
-
-## Live Demo
-
--  Use [this Link](https://youtu.be/HsndNf12wpM) to view the Live Demo
-
-## Limitations
-
-- Simplicity of program does not allow diverse changes
-
-______________
-
 ## Overview
 We created 2 widgets - the Task List and the Sentiment Analysis
 
@@ -252,37 +227,30 @@ Then, we created a wireframe for the same diagram to organize our ideas properly
 ![Wireframe](/DocumentationImages/wireframe.png)
 
 
-
-
 ## Design Insights and Philosophy
-Due to time constraints, we prioritized basic functionality in our app and took design inspirations from another task list app available online.
-https://github.com/abdellatif-laghjaj/todo-list (link this)
-Building upon this foundation, we incorporated various other features to enhance the user experience for our target audience. These additional features are imperative for making sure that our applicaton is easy to use and contributes significantly to user satisfaction.
-
-Our approach centered on code-first development. Given that a task list relies heavily on JavaScript for interactivity, we adopted a minimal HTML structure, relying on CSS and JavaScript to drive functionality and visual presentation.
+- Due to time constraints, we prioritized basic functionality in our app and took design inspirations from another task list app available online (![Link here](https://github.com/abdellatif-laghjaj/todo-list)
+- Building upon this foundation, we incorporated various other features to enhance the user experience for our target audience. These additional features are imperative for making sure that our applicaton is easy to use and contributes significantly to user satisfaction.
+- Our approach centered on code-first development. Given that a task list relies heavily on JavaScript for interactivity, we adopted a minimal HTML structure, relying on CSS and JavaScript to drive functionality and visual presentation.
+- Our approach remained similar for the slider widget
 
 ## Installation
+- Task list: ADD HERE
+- Slider: Use [this link](https://html-preview.github.io/?url=https://github.com/cse110-sp24-group18/warmup-exercise/blob/slider-full-implementation/slider/slider-widget.html) to run program.
+
 
 ## Accessibility
-Not all the buttons can be tabbed to, but tasks can still be added by tabbing.
-Application is adaptive to screen size and tested to work on very small screens.
-Colorblind palette to accomodate for colorblind
+- Both applications are adaptive to screen size and tested to work on very small screens.
+- We used a colorblind palette to accomodate for colorblind people.
 
-## Application Overview
-Top row to add new tasks (ADD PICTURES)
-Under that is legend with tasks
-Under that is actual tasklist
-On the left is the priority button to prioritise tasks
-The 3 action buttons on the right are:
-EDIT (add explaination and pictures)
-DESCRIPTION
-DELETE
 
 ## Testing and Troubleshooting
+- No Major Programming issues, simple quality of life adjustments such as smoothness and improvements in visual design.
+
 
 ## Limitations
-Due to time contraints, instead of adding a ton of guards everywhere, opted to limited amount of possible text in task names and descriptions as a compromise. 
-Also could not push certain other features like creating a task with prio, etc. Time is the biggest limiting factor.
+- Due to time contraints, instead of adding a ton of guards everywhere, we opted to limited amount of possible text in task names and descriptions as a compromise. 
+- Also could not push certain other features like creating a task with priority, etc. Time is the biggest limiting factor.
+- For the slider, simplicity of program does not allow diverse changes
 
 ## Acknowledgements
 Michael Cheung, Min Kim, Taiki Yoshino
