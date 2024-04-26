@@ -114,7 +114,7 @@ function checkboxUpdate(){
 ### Edit tasks
 Existing tasks can be edited by clicking on the edit button under the 'ACTIONS' column. These tasks have a pen icon and are green. Editing a task will cause it to replace the empty submission boxes at the top with the existing task and turn the submission button green. Once filled in, the submission form will edit the existing task rather than create a new task.
 
-#### Relevant Code
+#### Relevant Code:
 #### High Level Explanation:
 Edit checkboxes are given listeners to check for a state change, which then generates an 'editing' submission form where the usual add task is. editCheckboxUpdate() updates checkboxes with event listeners and calls genSubmissionEdit() which generates the new form. At the end of that, it reverts the input form back to normal afterwards.
 
@@ -148,9 +148,45 @@ function genSubmissionEdit(nodeArr){
 ```
 
 ### Task Description
-(ADD FUNCTION DESCRIPTION)
+Each task has a description that can be opened below the task. This can be done with the information button that opens up a description box signified by the information symbol with an 'i'.
+### Relevant Code:
+### High Level Explanation:
+compCheckboxUpdate() goes through all the description buttons and makes them open the descriptions for corresponding rows.
+### JS:
+```
+function compCheckboxUpdate(){
+    ...
+    checkboxArr.forEach(checkbox => {
+        checkbox.addEventListener('change', () => {
+                ...
+                const descriptions = document.querySelectorAll(`#task-desc`);
+                descriptions.forEach(desc => {
+                    if (desc.className == taskName){
+                        if (checkbox.checked == true){
+                            desc.style.display = 'grid';
+                        } else {
+                            desc.style.display = 'none';
+                        }
+                    }
+                })
+        });
+    });
+}
+```
+
 ### Task Sorting
-(ADD FUNCTION DESCRIPTION)
+A feature of the list by is that the list is sorted by priority and date by default. The list first sorts by priority, then within the priorities it will sort by earliest date.
+### Relevant Code:
+### High Level Explanation:
+sortTasks() sorts the dictionary by priority then date. This function is run before every instance renderList() to sort the rendered list.
+
+### JS:
+```
+function sortTasks(tasks){
+    ...
+    return tasks;
+}
+```
 
 ## Features and Usage (Slider Widget)
 **Select** and **Hold** the Range slider handle and **Move** left to right
