@@ -14,24 +14,29 @@
 ### Indifferent (Initial State)
 
  <img src="images/Indifferent.png" alt="indifferent" width="300"/>
+ 
 ```
   emojiDisplay.textContent = '🫤'; // Neutral Face
           feelingTxt.textContent = 'Indifferent'; 
           changeBackgroundColor('white');
           break;
 ```
+
 ### Happy (Move Slider Right Once)
 
 <img src="images/Happy.png" alt="happy" width="300"/>
+
 ```
  emojiDisplay.textContent = '😁'; // Smiling Face with Teeth
           feelingTxt.textContent = 'Happy'; 
           changeBackgroundColor('white');
           break;
 ```
+
 ### Amazing (Move Slider Right Twice)
 
 <img src="images/Amazing.png" alt="amazing" width="300"/>
+
 ```
 emojiDisplay.textContent = '🤣'; // Crying Laughing Face
           feelingTxt.textContent = 'Amazing'; 
@@ -39,24 +44,29 @@ emojiDisplay.textContent = '🤣'; // Crying Laughing Face
           changeBackgroundColor('green');
           break;
 ```
+
 ### Sad (Move Slider Left Once)
 
 <img src="images/Sad.png" alt="sad" width="300"/>
+
 ```
  emojiDisplay.textContent = '😢'; // Face with Sad Tear
           feelingTxt.textContent = 'Sad'; 
           changeBackgroundColor('white');
           break;
 ```
+
 ### Devastated (Move Slider Left Twice)
 
 <img src="images/Devastated.png" alt="diagram" width="300"/>
+
 ```
  emojiDisplay.textContent = '😭'; // Crying Emoji
           feelingTxt.textContent = 'Devastated';
           changeBackgroundColor('blue');
           break;
-```                                                    
+```
+                                                  
 ## Wireframes and Diagrams
 
 - A rough Diagram of what our widget looks like
