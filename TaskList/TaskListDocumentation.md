@@ -57,7 +57,9 @@ EDIT (add explaination and pictures)
 DESCRIPTION
 DELETE
 
-## Troubleshooting and Limitations
+## Testing and Troubleshooting
+
+## Limitations
 Due to time contraints, instead of adding a ton of guards everywhere, opted to limited amount of possible text in task names and descriptions as a compromise. 
 Also could not push certain other features like creating a task with prio, etc. Time is the biggest limiting factor.
 
