@@ -14,6 +14,8 @@ We created 2 widgets - the Task List and the Sentiment Analysis
 
 ![Task List 2](/DocumentationImages/userstories_tasklist2.png)
 
+![Slider Widget](/DocumentationImages/userstory_slider.png)
+
 ## Features and Usage (Task List Widget)
 ### Add tasks
 Adding tasks can be done at the top of the TODO List. This can be done by entering a task name, task description (optional), applying a tag, and entering a date. The 'plus' button can then be pressed to add this new task to the list.
