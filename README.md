@@ -284,8 +284,94 @@ Then, we created a wireframe for the same diagram to organize our ideas properly
 ## Testing and Troubleshooting
 - For testing and troubleshooting, we employed a combination of JUnit tests and GitHub Issues to ensure the stability of our widgets while also facilitating effective communication and issue resolution within our team.
 
-### JUnit Tests
-- We wrote a series of JUnit tests to validate the functionality of our widget's core features. These tests covered various scenarios and edge cases to verify that the widget behaved as expected under different conditions.
+### Task List Manual Unit Testing
+The overall goal of the unit tests is to test each interaction seperately, then test for any conflicting interactions. Interactions include adding tasks, prioritizing tasks, editing tasks, displaying task descriptions, and deleting tasks. Even if there are limited explanations for each test, all screenshots are under DocumentationImages/TaskListTesting and include much more extensive testing than shown in the screenshots in this documentation. Every interaction gets tested for each test. i.e. prio, description, edit, and delete.
+### Overall Tests:
+```
+test 1: Base Case {test1, this is a test, School, 04/02/2024}
+test 2: Base Case {test2, also a test, Misc, 02/01/2022}
+test 3: no name {, blank test, Personal, 01/01/2000}
+test 4: no desc {test4,, Work, 12/23/1988}
+test 5: Base Case {test5, testing, School, 9/1/2002}
+test 6: no date {test6, no date, Misc,}
+
+test 7: edit->delete {test7, editdelete, Personal, 01/20/2303}
+test 8: edit->edit {test8, editedit, Work, 02/23/1111}
+test 9: empty list {}
+test 10: long name {aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa, long name, Misc, 01/01/0001}
+test 11: long desc {test11, aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa, Misc, 01/01/0001}
+test 12: letters in date (i literally couldnt type it in)
+
+test 13: emojis {😋, 😋, Personal, 01/09/2002}
+```
+### Test 1
+Test 1 is a base case which simulates a regular user iteraction. The first set of images is adding a task:
+
+<img src="DocumentationImages/TaskListTesting/test1/test1.JPG" alt="Test1" width="40%">
+<img src="DocumentationImages/TaskListTesting/test1/test1after.JPG" alt="Test1" width="40%">
+
+The next set of images is showing the description and priority functions working:
+
+<img src="DocumentationImages/TaskListTesting/test1/test1desc.JPG" alt="Test1" width="40%">
+<img src="DocumentationImages/TaskListTesting/test1/test1sort.JPG" alt="Test1" width="40%">
+
+And the last set of images shows the editing function working:
+
+<img src="DocumentationImages/TaskListTesting/test1/test1edit.JPG" alt="Test1" width="40%">
+<img src="DocumentationImages/TaskListTesting/test1/test1editAfter.JPG" alt="Test1" width="40%">
+
+### Test 2
+Test 2 is a base case which also simulates regular user iteraction. For the sake of repitition, the other tests all performed similarly, the screenshots are in the directory under DocumentationImages/TaskListTesting/test2.
+
+### Test 3
+Test 3 tries to add a task with no task name, this results in an error, sending an alert to the user.
+
+<img src="DocumentationImages/TaskListTesting/test3/test3.JPG" alt="Test3" width="40%">
+<img src="DocumentationImages/TaskListTesting/test3/test3alert.JPG" alt="Test3" width="40%">
+<img src="DocumentationImages/TaskListTesting/test3/test3after.JPG" alt="Test3" width="40%">
+
+### Test 4
+Test 4 tries to add a task with no description, the intended interaction is that the task just exists with an empty description. More interactions were tested after this including testing editing and prioritizing the task entry with no description. The screenshots are in the directory under DocumentationImages/TaskListTesting/test4.
+
+<img src="DocumentationImages/TaskListTesting/test4/test4.JPG" alt="Test4" width="40%">
+<img src="DocumentationImages/TaskListTesting/test4/test4after.JPG" alt="Test4" width="40%">
+<img src="DocumentationImages/TaskListTesting/test4/test4desc.JPG" alt="Test4" width="40%">
+
+### Test 5
+Test 5 is also a base case so for the sake of repitition it will be skipped over in this summary, but the screenshots are in the directory under DocumentationImages/TaskListTesting/test5.
+
+### Test 6
+Test 6 is a test with no date. The test works as intended with the task being sent to the bottom of the task list due to having an indefinite date during the sort.
+
+<img src="DocumentationImages/TaskListTesting/test6/test6after.JPG" alt="Test6" width="40%">
+
+### Test 7
+Test 7 is a test for any confliciting interaction between edit and delete. The intended iteraction is that editing first then deleting the entry should then add a new entry with the submission. Something that could be improved after running this test is the button should go from green to blue to signify going from 'edit' mode to 'add' mode to the user.
+
+<img src="DocumentationImages/TaskListTesting/test7/test7edit.JPG" alt="Test7" width="40%">
+<img src="DocumentationImages/TaskListTesting/test7/test7delete.JPG" alt="Test7" width="40%">
+<img src="DocumentationImages/TaskListTesting/test7/test7editdeleteafter.JPG" alt="Test7" width="40%">
+
+### Test 8
+Test 8 is a test for any conflicting interaction between edit and another edit. The intended iteraction is that editing twice just replaces the submission form with the most recent edit entry and that is how it works. Screenshots are in the directory under DocumentationImages/TaskListTesting/test8.
+
+### Test 9
+Test 9 tests to see what happens when there are no longer tasks in the list.
+
+<img src="DocumentationImages/TaskListTesting/test9/test9deleteall.JPG" alt="Test9" width="40%">
+
+### Test 10
+Test 10 tests entering an extremely long task name. This results in another error and the user is alerted.
+
+<img src="DocumentationImages/TaskListTesting/test10/test10alert.JPG" alt="Test10" width="40%">
+
+### Test 11
+Test 11 tests entering a long description. This results in another error and the user is alerted.
+
+<img src="DocumentationImages/TaskListTesting/test11/test11alert.JPG" alt="Test11" width="40%">
+
+### Test 12
+Test 12 tests whether emojis work in the tasks. Since the emojis are just characters, they work as normal. Screenshots in DocumentationImages/TaskListTesting/test12.
 
 ### GitHub Issues
 - To track and manage issues encountered during testing and development, we utilized GitHub's issue tracking system. We created detailed issue reports for each identified problem, including bug reports and feature requests.
