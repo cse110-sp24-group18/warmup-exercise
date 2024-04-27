@@ -1,0 +1,15 @@
+test 1: Base Case {test1, this is a test, School, 04/02/2024}
+test 2: Base Case {test2, also a test, Misc, 02/01/2022}
+test 3: no name {, blank test, Personal, 01/01/2000}
+test 4: no desc {test4,, Work, 12/23/1988}
+test 5: Base Case {test5, testing, School, 9/1/2002}
+test 6: no date {test6, no date, Misc,}
+
+test 7: edit->delete {test7, editdelete, Personal, 01/20/2303}
+test 8: edit->edit {test8, editedit, Work, 02/23/1111}
+test 9: empty list {}
+test 10: long name {aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa, long name, Misc, 01/01/0001}
+test 11: long date {test11, aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa, Misc, 01/01/0001}
+test 12: letters in date (i literally couldnt type it in)
+
+test 13: emojis {😋, 😋, Personal, 01/09/2002}
