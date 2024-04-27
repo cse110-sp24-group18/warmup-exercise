@@ -8,6 +8,7 @@
   margin-bottom: 100px;
 }
 
+/* Style for the slider, with a specified width, height, and background color */
 .slider {
   -webkit-appearance: none;
   width: 60%;
@@ -19,10 +20,12 @@
   transition: opacity .2s;
 }
 
+/* Changes the opacity of the slider when hovered over */
 .slider:hover {
   opacity: 1;
 }
 
+/* Custom styling for the slider thumb in webkit browsers */
 .slider::-webkit-slider-thumb {
   -webkit-appearance: none;
   appearance: none;
@@ -32,6 +35,7 @@
   cursor: pointer;
 }
 
+/* Custom styling for the slider thumb in Mozilla browsers */
 .slider::-moz-range-thumb {
   width: 25px;
   height: 25px;
@@ -39,11 +43,13 @@
   cursor: pointer;
 }
 
+/* Style for the emoji display */
 #emojiDisplay {
   font-size: 5em;
   text-align: center;
 }
 
+/* Style for the text displaying the user's feeling */
 #feelingTxt{
   font-size: 2em;
   text-align: center;
@@ -53,6 +59,7 @@
   font-style: normal;
 }
 
+/* Style for the main heading */
 h1{
   text-align: center;
   margin-bottom: -1em; /* Adjusted margin to fix overlap */
@@ -62,10 +69,12 @@ h1{
   font-size: 3em;
 }
 
+/* Style adjustments for paragraphs to handle spacing */
 p{
   margin-top: -0.5em;
 }
 
+/* Style for for the falling dollar sign (script in slider.js) */
 .dollar {
   position: absolute;
   font-size: 24px;
