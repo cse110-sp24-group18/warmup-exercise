@@ -2,54 +2,54 @@
 
 ## Slider Widget Team Analysis
 ### Strength
-- Good communications were achieved; frequent meetings were done and updates from teammates were quick. This leads to the project done more efficiently and leads to better end result.
-- Efficiency in duties separation were achieved for each teammates. This allows the project itself to be tackled efficiently.
+- Good communication was achieved through frequent meetings and quick updates via Slack. This led to the project being done more efficiently and effectively.
+- The team successfully divided duties among team members, allowing for the efficient handling of the project tasks.
 
 ### Weakness
-- Inefficient code collaboration method. This is evident in most implementation relied being on 1 branch. The group could work better with more branches for targeted implementation/issue targeting in the future.
+- Inefficient code collaboration method: This was evident by the implementation only relying on 1 branch. The group could work better with one branch per user in the future.
 
 ### Opportunity
-- The use of "Hosting Widget" which allows easy implementation / debugging.
-- The use of Github in coordinating and coding together really allows a more efficient workflow.
+- The use of "Hosting Widget" allowed easy implementation / debugging.
+- The use of Github in coordinating and coding together really allowed a more efficient workflow.
 
 ### Threat
-- Not much programming work to divide. Since the assignment is fairly small, easily done by 2-3 out of 5 teammates, it's difficult to separate it more than what's done.
+- Since the assignment was fairly small, it was easily done by 2-3 out of 5 teammates. Hence, it was difficult to separate programming-related tasks and make sure every team member had a coding sub-task to do.
 
 ## Task List Team Analysis
 ### Strength
-- Some of the team member already got a good baseline understanding of WebApp design. This allows more complex ideas in the program to be achievable efficiently.
+- Some team members had a good baseline understanding of WebApp design, facilitating the achievement of more complex ideas efficiently.
 
 ### Weakness
-- Organization issues arising from the limited experience most team member has working in a team setting with a Github repo.
-- Inexperience with Github version control. As such, some learning was needed. 
+- Limited experience working in a team setting with a GitHub repo led to organizational issues.
+- Inexperience with Github version control, which required some additional learning. 
 
 ### Opportunity
-- The usage of online resources for ideas and polishing of codes.
+- The usage of online resources for ideas and code refinement.
 
 ### Threat
-- Large time constraint, considering the fact that the project only has one week to finish.
-- Unfortunate scheduling and timeline issues meant that some of the team members were very busy during the week to contribute a lot.
+- Large time constraint, considering the fact that the project only had one week to finish.
+- Some team members were busy with other commitments during the week, impacting their contribution to the project.
 
 ## Overall Group Points and What to Keep in Mind / Improve
 ### Strength
 - Good communication
-- Work splitting efficiency
+- Effective delegation of tasks
 - Good foundation for WebApp
 - Overall: Teamwork and general prior knowledge seems to be the team's strength.
 
 ### Weakness
 - Code collaboration limitations
 - Github knowledge limitations
-- Overall: The team seems to still be lacking in Github knowledge and how to utilize it better. This seems to be an aspect to keep in mind of to better the project's efficiency.
+- Overall: The team seems to still be lacking in Github knowledge and how to utilize it better.
 
 ### Opportunity
-- External tools and guides usage
-- Overall: Utilizing guides online and Github tools seem to be very helpful. They should be utilized more and be mastered more for the project.
+- Usage of external tools and guides
+- Overall: Utilizing guides online and Github tools seems to be very helpful. They should be utilized more and be mastered more for the project.
 
 ### Threat
-- Timing and general busyness with other classes
-- The general smallness of the task
-- Overall: Timing seems to be a big obstacle. Better scheduling and dividing of work might be needed for the actual project.
+- Timing and general busyness with other commitments 
+- The widget task being relatively small and simple to implement
+- Overall: Timing seemed to be a big obstacle (since people were busy with midterms in Week 4). Better scheduling and delegation might be needed for the actual project.
 
 ### Conclusion
-The group seems to have pretty amazing strength and utilizing of opportunities that helped with the two widgets' success. They seem to be maintainable and could be realistically replicated for the actual project. The weaknesses seem to be minor and can be fixed by simply spending some more time learning about them, especially during lab sessions of the class. The threat of timing is unfortunate, and requires more attention the next assignment.
+The group showed strengths in effective communication and efficient work splitting, leveraging opportunities such as external resources and online guides. However, limitations in code collaboration and GitHub knowledge pose challenges that need to be addressed. Moving forward, the team should focus on improving collaboration processes and mastering GitHub tools to enhance project efficiency. Additionally, addressing timing constraints and better scheduling workloads will be imperative for future assignments. However, these issues are relatively small and can easily be managed with a longer deadline for the final project. 
